@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ac051e56a075d4d8915e338235796b, type: 3}
+  m_Name: Wave Lv1
+  m_EditorClassIdentifier: 
+  waves:
+  - waveCreatures:
+    - count: 10
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 2
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 2
+    timeToWaveBegins: 10
+  - waveCreatures:
+    - count: 2
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 5
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    timeBetweenSpawns: 2
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 15
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 5
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 6
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 5
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 2
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 8
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 4
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 3
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 10
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 5
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 5
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 15
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 7
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 7
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 20
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 8
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 8
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 22
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 9
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 9
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
+  - waveCreatures:
+    - count: 25
+      prefab: {fileID: 5857751628516997720, guid: 6fc5035476cce3345a0f7232ff320c6e, type: 3}
+    - count: 10
+      prefab: {fileID: 2157593041942259564, guid: 163b29efd35c50d4c80c4b56ef0ec786, type: 3}
+    - count: 10
+      prefab: {fileID: 5936671308007023353, guid: 841343c4971fe0d409350f8ccbb252ee, type: 3}
+    timeBetweenSpawns: 1
+    timeToWaveBegins: 5
